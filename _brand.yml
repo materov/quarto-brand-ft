@@ -87,5 +87,5 @@ typography:
   link:
     weight: 600
     color: teal
-    background-color: transparent
+    background-color: rgba(0,0,0,0)
     decoration: underline
