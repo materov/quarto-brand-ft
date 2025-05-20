@@ -1,0 +1,91 @@
+# META INFORMATION
+meta:
+  name:
+    short: "FT"
+    full: "Financial Primes"
+  link:
+    home: "https://www.ft.com/"
+
+# LOGO
+logo:
+  images:
+    header:
+      path: "logos/ft-icon.png"
+      alt: "Financial Times logo"
+    print:
+      path: "logos/ft-icon.png"
+      alt: "Financial Times print edition logo"
+  small: "logos/ft-icon.png"
+  medium:
+    light: header
+    dark: header
+  large: print
+
+# COLOR PALETTE
+color:
+  palette:
+    ft-pink:   "#fcd0b1"
+    ft-grey:   "#333333"
+    white:     "#ffffff"
+    black:     "#000000"
+    claret:    "#990f3d"
+    teal:      "#0d7680"
+    oxford:    "#0f5499"
+    slate:     "#262a33"
+    paper:     "#fff1e5"
+
+  foreground: slate
+  background: paper
+  primary: teal
+  secondary: oxford
+  tertiary: claret
+  light: white
+  dark: black
+
+typography:
+  fonts:
+    - family: Financier
+      source: file
+      files:
+        - path: fonts/financier/Financier-Regular.ttf
+          weight: 400
+          style: normal
+        - path: fonts/financier/Financier-Italic.ttf
+          weight: 400
+          style: italic
+    - family: Inter
+      source: google
+      weight: [400, 600]
+      style: [normal, italic]
+    - family: Courier New
+      source: system
+
+  base:
+    family: Inter
+    weight: 400
+    size: 16px
+    line-height: 1.5
+
+  headings:
+    family: Financier
+    weight: 600
+    style: normal
+    line-height: 1.2
+
+  monospace:
+    family: Courier New
+    weight: 400
+    size: 0.9em
+  monospace-inline:
+    color: slate
+    background-color: paper
+  monospace-block:
+    color: slate
+    background-color: paper
+    line-height: 1.4
+
+  link:
+    weight: 600
+    color: teal
+    background-color: transparent
+    decoration: underline

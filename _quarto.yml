@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Brand Example"
+  navbar:
+    left:
+      - href: index.qmd
+        text: "Financial Primes"
+      - href: News.qmd
+        text: "News"
+      - href: World.qmd
+        text: "World"
+      - href: Lifestyle.qmd
+        text: "Lifestyle"
+      - href: Technology.qmd
+        text: "Technology"
+    tools:
+      - icon: github
+        href: https://github.com/ft
+      - icon: telegram
+        href: https://t.me/ft
+    theme:
+       - cosmo
+       - brand
